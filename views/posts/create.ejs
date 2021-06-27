@@ -1,0 +1,26 @@
+<%- contentFor('body') %>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card border-0 shadow rounded">
+            <div class="card-body">
+                <h4 class="card-title">Add Data</h4>
+            
+
+                <form action="/posts/store" method="post">
+                    <div class="form-group">
+                        <label>Title</label>
+                        <input type="text" class="form-control" name="title" value="" placeholder="Masukkan Title Post" autocomplete="off">
+                    </div>
+                    <div class="form-group">
+                        <label>Konten</label>
+                        <textarea class="form-control" name="content" rows="4" placeholder="Masukkan Konten Post"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">SIMPAN</button>
+                    <button type="reset" class="btn btn-warning">RESET</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>  
