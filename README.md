@@ -1,1 +1,1 @@
-# express-mysql-learning
+# express-ejs-mysql-learning
